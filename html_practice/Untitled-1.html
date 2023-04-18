@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset = "utf-8">
+        <title>실습 2</title>
+    </head>
+    <body>
+       <h1>상품 주문서</h1>
+        <form>
+            <fieldset>
+                <legend>개인정보</legend>
+                <ul>
+                    <li>
+                        <label>이름<input type = "text" placeholder = "여백없이 입력" required = "공백없이 입력해주세요"></label>
+                        
+                    </li>
+                    <li>
+                        <label>연락처<input type = "text" placeholder = "연락가능한 번호"></label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>배송지 정보</legend>
+                <ul>
+                    <li>
+                        <label>주소<input type = "text" autofocus size = "30"></label>
+                    </li>
+                    <li>
+                        <label>전화번호<input type = "text" size = "15"></label>
+                    </li>
+                    <li><label>
+                        메모<textarea></textarea>
+                    </label> 
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>주문정보</legend>
+                <ul>
+                    <li>
+                        <label><input type = "checkbox" value = "1" checked>과테말라 안티구아 (100g)<input type = "text" value = "3" size = "3">개</label>
+                    </li>
+                    <li>
+                         <label><input type = "checkbox" value ="2" checked>인도네시아 만델링 (100g)<input type = "text" value = "1" size = "3">개</label>
+                    </li>
+                    <li>
+                         <label><input type = "checkbox" value = "3" checked>탐라는도다(블렌딩) (100g)<input type = "text" value = "2" size = "3">개</label>
+                    </li>
+                </ul>
+            </fieldset>
+                <input type = "button" value = "주문하기">
+                <input type = "button" value = "다시 작성">
+        </form>
+    </body>
+</html>
